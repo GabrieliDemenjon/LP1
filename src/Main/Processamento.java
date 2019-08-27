@@ -3,8 +3,19 @@ package Main;
 //@author Radames J Halmeman  - rjhalmeman@gmail.com
 class Processamento {
 
-    public Double getSoma(double a, double b) {
-        double resultado = a + b;
-        return resultado;
+    String LetrasMaiusculo(String s) {
+        String aux[]=s.split(" ");
+        String resp="";
+         for (int i = 0; i < aux.length ; i++) {
+             resp+=aux[i].charAt(0);
+             
+             
+         }
+        return resp;
+      
+        
+        
+       
     }
+
 }
